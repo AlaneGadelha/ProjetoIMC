@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Projeto IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="imc">
+    
+    <img id="tabela" src="Captura de tela 2023-06-12 155054.png">
+  </div>
+    
+  
+  <div id="formulário">
+    <section class="container">
+      <h1>Calcule seu IMC</h1>
+      <form action="" class="form" method="GET">
+        <label for="nome"> <strong>Nome</strong></label>
+        <input type="text" class="nome" name="nome" required>
+        <label for="Sobrenome"> <strong>Sobrenome</strong></label>
+        <input type="text" class="sobrenome" name="sobrenome" required>
+        <label for="peso"> <strong>Peso</strong></label>
+        <input type="text" class="peso" name="peso" required>
+        <label for="altura"> <strong>Altura</strong></label>
+        <input type="text" class="altura" name="altura" required>
+        <button class="enviar" type="submit"> <strong>Enviar</strong></button>
+        
+      </form>
+      
+      <div class="resultado"></div>
+    </section> 
+  </div>
+  <script src="SCRIPT.JS"></script>
+</body>
+
+</html>
